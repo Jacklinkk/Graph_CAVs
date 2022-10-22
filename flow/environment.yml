@@ -1,0 +1,28 @@
+name: Graph_CAV
+
+dependencies:
+    - python==3.7.3
+    - pip
+    - pip:
+        - scipy
+        - lxml
+        - six
+        - path.py
+        - python-dateutil
+        - pip>=18.0
+        - setuptools
+        - plotly
+        - gym==0.23.1
+        - pyprind
+        - nose2
+        - cached_property
+        - joblib
+        - matplotlib
+        - dill
+        - lz4
+        - ray
+        - setproctitle
+        - psutil
+        - opencv-python
+        - boto3
+        - redis
