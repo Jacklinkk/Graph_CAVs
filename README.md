@@ -6,6 +6,7 @@ Co-operative Decision-Making in Mixed Autonomy
 Traffic: Framework, Survey, and Challenges**.
 
 GRL_CAVs is an all-round improvement and optimization source code based on our previously repository TorchGRL. GRL_CAVs is a modular simulation framework that integrates different GRL algorithms, flow interface and SUMO simulation platform to realize the simulation of multi-agents decision-making algorithms for connected and autonomous vehicles (CAVs) in mixed autonomy traffic. You can design your own traffic scenarios, adjust the implemented GRL algorithm or do your mprovements for a particular module according to your needs.
+
 -------------------------------------
 * [Preparation](#preparation)
 * [Installation](#installation)
