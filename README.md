@@ -1,6 +1,6 @@
 ## GRL_CAVs
 
-GRL_CAVs is the source code for our paper: **Graph Reinforcement 
+GRL_CAVs is the source code for our [paper](https://arxiv.org/abs/2211.03005): **Graph Reinforcement 
 Learning Application to 
 Co-operative Decision-Making in Mixed Autonomy 
 Traffic: Framework, Survey, and Challenges**.
@@ -290,3 +290,14 @@ you can define a new scenario in GRL_Envs folder.
 You can refer to the documentation of 
 SUMO and FLOW for more details.
 
+## Citation
+To cite our publications, please cite our paper currently on arxiv, 
+the library on which Graph_CAVs is based:
+```
+@article{liu2022graph,
+  title={Graph Reinforcement Learning Application to Co-operative Decision-Making in Mixed Autonomy Traffic: Framework, Survey, and Challenges},
+  author={Liu, Qi and Li, Xueyuan and Li, Zirui and Wu, Jingda and Du, Guodong and Gao, Xin and Yang, Fan and Yuan, Shihua},
+  journal={arXiv preprint arXiv:2211.03005},
+  year={2022}
+}
+```
