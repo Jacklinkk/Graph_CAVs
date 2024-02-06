@@ -20,8 +20,8 @@ Enable_Graph = False
 # DEBUG = True
 DEBUG = False
 
-# RENDER = False
-RENDER = True
+RENDER = False
+#RENDER = True
 
 NEAREST_MERGE = False
 # NEAREST_MERGE = True
