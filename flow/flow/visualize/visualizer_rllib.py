@@ -158,7 +158,7 @@ def visualizer_rllib(args):
             os.environ.get("TEST_FLAG") != 'True':
         env = agent.local_evaluator.env
     else:
-        env = gym.make(env_name)
+        env = gym.make(env_name, render_mode='human')
 
     if args.render_mode == 'sumo_gui':
         env.sim_params.render = True  # set to True after initializing agent and env
