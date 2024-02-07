@@ -78,14 +78,14 @@ class Experiment:
         # Training
         n_episodes = 150
         max_episode_len = 2500
-        save_dir = '../GRL_TrainedModels/PPO/DQN5'
+        save_dir = '/GRL_TrainedModels/PPO/DQN5'
         debug_training = False
         if training:
             Training_GRLModels(GRL_PPO, self.env, n_episodes, max_episode_len, save_dir, debug_training)
 
         # Testing
         test_episodes = 10
-        load_dir = '../GRL_TrainedModels/PPO/DQN5'
+        load_dir = '/GRL_TrainedModels/PPO/DQN5'
         debug_testing = False
         if testing:
             Testing_GRLModels(GRL_PPO, self.env, test_episodes, load_dir, debug_testing)
