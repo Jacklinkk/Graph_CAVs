@@ -174,7 +174,7 @@ class MultiEnv(MultiAgentEnv, Env):
                 (self.step_counter > 2e6 and self.simulator != 'aimsun'):
             self.step_counter = 0
             # issue a random seed to induce randomness into the next rollout
-            self.sim_params.seed = random.randint(0, 1e5)
+            self.sim_params.seed = random.randint(0, 100000)
 
             self.k.vehicle = deepcopy(self.initial_vehicles)
             self.k.vehicle.master_kernel = self.k
